@@ -12,7 +12,15 @@ int main() {
         sum += t;
     }
     bool ok = 0;
-    if(sum == 1 || sum == 2 || sum == 5) {
+    for(i = 0; i <= n; i++) {
+        t = sum - i*3;
+        if(t < 0) break;
+        if(t%4==0 && t/4 <= n-i) {
+            ok = 1;
+            break;
+        }
+    }
+    if(!ok) {
         puts("-1");
         return 0;
     }
