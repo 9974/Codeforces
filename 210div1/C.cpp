@@ -1,6 +1,4 @@
-
-By 2011330300713, contest: Codeforces Round #210 (Div. 1), problem: (C) Levko and Strings, Accepted, #
- #include <cstdio>
+#include <cstdio>
 #include <cstring>
 #include <algorithm>
 using namespace std;
